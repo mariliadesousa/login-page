@@ -12,3 +12,15 @@ body {
     font-family: 'Poppins';
 }
 
+.conteiner {
+    background: #242424;
+    color: #fff;
+    min-width: 50%;
+    min-height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+}
