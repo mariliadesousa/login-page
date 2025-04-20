@@ -21,10 +21,6 @@ h2 {
     font-weight: 500;
 }
 
-p {
-    font-size: 1.2rem;
-    margin-bottom: 45px;
-}
 
 .span2 {
     font-size: 1rem;
@@ -56,6 +52,7 @@ p {
     position: absolute;
     right: 0;
     padding: 70px;
+    box-shadow: -15px 0 25px rgba(0, 0, 0, 0.418);
 }
 
 .form-box.register {
@@ -113,4 +110,10 @@ form {
 
 .social-icons a:hover {
     border-color: #672592;
+}
+
+.image img {
+    max-height: 100vh;
+    display: flex;
+    justify-content: center;
 }
