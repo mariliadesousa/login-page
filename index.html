@@ -7,6 +7,43 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+    <div class="conteiner" id="conteiner">
+
+        <!-- Sign Up -->
+       <div class="form-conteiner sign-up-conteiner">
+        <form action="#">
+            <h1>Sing Up</h1>
+            <p>Coloque seus dados e crie sua conta</p>
+            <input type="text" placeholder="Nome">
+            <input type="text" placeholder="Sobrenome">
+            <input type="email" placeholder="Email">
+            <input type="password" placeholder="Senha">
+            <button>Sign Up</button>
+            <span>Já possui conta? <a id="signIn" href="#">Faça login aqui</a></span>
+        </form>
+       </div>
+       
+       <!-- Sign In -->
+       <div class="form-conteiner sign-in-conteiner">
+        <form action="#">
+            <h1>Log In</h1>
+            <p>Bem-vindo de volta!</p>
+            <input type="email" placeholder="Email">
+            <input type="password" placeholder="Senha">
+            <label>
+                <input type="checkbox"> Lembrar-me
+            </label>
+            <button>Log In</button>
+            <span>Não possui conta? <a id="signUp" href="#">Registre-se aqui</a></span>
+        </form>
+       </div>
+
+       <!-- Overlay -->
+        <div class="overlay-conteiner">
+            <div class="overlay"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
 </body>
 </html>
