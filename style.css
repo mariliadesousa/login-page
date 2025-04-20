@@ -22,7 +22,8 @@ body {
     justify-content: center;
     text-align: center;
     align-items: center;
-    position: relative;
+    position: absolute;
+    right: 0;
     overflow: hidden;
 }
 
@@ -65,4 +66,17 @@ button {
 
 button:hover {
     background: #64258f;
+}
+
+input {
+    margin: 0.5rem;
+    padding: 5px 110px;
+
+    border: none;
+    border-radius: 10px;
+    background: #5050507e;
+
+    
+    font-family: 'Poppins';
+    font-size: 15px;
 }
