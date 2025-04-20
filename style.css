@@ -12,7 +12,7 @@ body {
     font-family: 'Poppins';
 }
 
-.conteiner {
+.form-box {
     background: #242424;
     color: #fff;
     min-width: 50%;
@@ -27,56 +27,6 @@ body {
     overflow: hidden;
 }
 
-.conteiner h2, button, a{
+.form-box h2, button, a{
     color: #8B32C5;
-}
-
-h2 {
-    font-size: 3rem;
-}
-
-p {
-    font-size: 1.5rem;
-}
-
-.span {
-    font-size: 0.8rem;
-    padding: 16px;
-}
-
-a {
-    text-decoration: none;
-}
-
-a:hover {
-    color: #64258f;
-}
-
-button {
-    margin: 1rem;
-    padding: 5px 180px;
-    border-radius: 10px;
-    background: #8B32C5;
-    color: #fff;
-    border: none;
-
-    font-family: 'Poppins';
-    font-size: 15px;
-}
-
-button:hover {
-    background: #64258f;
-}
-
-input {
-    margin: 0.5rem;
-    padding: 5px 110px;
-
-    border: none;
-    border-radius: 10px;
-    background: #5050507e;
-
-    
-    font-family: 'Poppins';
-    font-size: 15px;
 }
