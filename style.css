@@ -18,6 +18,7 @@ body {
 
 h2 {
     font-size: 3rem;
+    font-weight: 500;
 }
 
 p {
@@ -39,6 +40,10 @@ p {
     text-decoration: none;
 }
 
+.span a:hover {
+    color: #672592;
+}
+
 .form-box {
     background: #242424;
     color: #fff;
@@ -51,6 +56,10 @@ p {
     position: absolute;
     right: 0;
     padding: 70px;
+}
+
+.form-box.register {
+    visibility: hidden;
 }
 
 form {
@@ -90,10 +99,18 @@ form {
     cursor: pointer;
 }
 
+.btn:hover {
+    background: #672592;
+}
+
 .social-icons a {
     display: inline-flex;
     padding: 10px;
     border: 2px solid #8B32C5;
     border-radius: 8px;
     margin: 0 8px;
+}
+
+.social-icons a:hover {
+    border-color: #672592;
 }
